@@ -1,718 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Компания</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Linear icons CSS-->
-  <link href="assets/linearicons/css/icon-font.min.css" rel="stylesheet">
-  <!-- Font Awesome CSS-->
-  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <!-- Animate CSS -->
-  <link href="assets/animate/animate.css" rel="stylesheet">
-  <!-- Owl Carousel -->
-  <link href="assets/owl-carousel/css/owl.carousel.css" rel="stylesheet">
-  <link href="assets/owl-carousel/css/owl.theme.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link href="css/style.css" rel="stylesheet">
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Houseelectric.ru</title>
+<!-- Bootstrap CSS -->
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS-->
+<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Linear icons CSS-->
+<link href="assets/linearicons/css/icon-font.min.css" rel="stylesheet">
+<!-- Slick Nav CSS -->
+<link rel="stylesheet" href="assets/css/slicknav.min.css">
+<!-- Owl Carousel -->
+<link href="assets/owl-carousel/css/owl.carousel.css" rel="stylesheet">
+<link href="assets/owl-carousel/css/owl.theme.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+<!-- Animate CSS -->
+<link href="assets/animate/animate.css" rel="stylesheet">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <!-- Pre Loader -->
-    <div id="loader"></div>
-    <!-- Header -->
-    <header id="home" class="welcome-hero-area">
-      <div class="header-top-area">
-        <div class="container"> 
-          <!-- START MAIN MENU -->
-          <nav class="navbar navbar-default"> 
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand" href="#home"><img src="images/logo1.png" alt=""></a> <!-- Logo --> </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li><a class="smoth-scroll" href="#home">Главная</a></li>
-                  <li><a class="smoth-scroll" href="#aboutus">О нас</a></li>
-                  <li><a class="smoth-scroll" href="#services">Услуги</a></li>
-                  <li><a class="smoth-scroll" href="#testimonials">Отзывы</a></li>
-                  <li><a class="smoth-scroll" href="#contactus">Контакты</a></li>
-                </ul>
-              </div>
-            </nav>
-            <!-- END MAIN MENU --> 
+</head>
+<body>
+<!-- Pre Loader -->
+<div id="dvLoading"></div>
+<!-- Header Start -->
+<header class="wow fadeInDown" data-offset-top="197" data-spy="affix">
+  <div class="top-wrapper hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <div class="guest"></div>
+        </div>
+        <div class="col-lg-5 col-md-6 hidden-sm">
+          <div class="top-header-add">
+            <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>Позвонить</span> 8(800)555-35-35</div>
+            <div class="book"><a href="#contact"><i class="fa fa-globe" aria-hidden="true"></i><span>Заказать</span></a></div>
           </div>
         </div>
-        <!-- Start Slider Area -->
-        <div class="home-slider-area">
-          <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#welcome-slide-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#welcome-slide-carousel" data-slide-to="1"></li>
-              <li data-target="#welcome-slide-carousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox"> 
-              <!-- Start Single Slider Item -->
-              <div class="item active">
-                <div class="single-slide-item slide-1">
-                  <div class="single-slide-item-table">
-                    <div class="single-slide-item-table-cell">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-md-12">
-                            <h1>Лучшие <span>Электрические</span> Услуги</h1>
-                            <p>Здесь описание, а выше можно написать название компании</p>
-                            <a class="btn-one smoth-scroll" href="#services">Подробнее</a> </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Slider Item--> 
-                <!-- Start Single Slider Item-->
-                <div class="item">
-                  <div class="single-slide-item slide-2">
-                    <div class="single-slide-item-table">
-                      <div class="single-slide-item-table-cell">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-12">
-                            <h1>Лучшие <span>Электрические</span> Услуги</h1>
-                            <p>Здесь описание, а выше можно написать название компании</p>
-                            <a class="btn-one smoth-scroll" href="#services">Подробнее</a> </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Single Slider Item --> 
-                  <!-- Start Single Slider Item-->
-                  <div class="item">
-                    <div class="single-slide-item slide-3">
-                      <div class="single-slide-item-table">
-                        <div class="single-slide-item-table-cell">
-                          <div class="container">
-                            <div class="row">
-                              <div class="col-md-12">
-                            <h1>Лучшие <span>Электрические</span> Услуги</h1>
-                            <p>Здесь описание, а выше можно написать название компании</p>
-                            <a class="btn-one smoth-scroll" href="#services">Подробнее</a> </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Single Slider Item --> 
-                    <a class="left welcome-control" href="#welcome-slide-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="right welcome-control" href="#welcome-slide-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
-                  </div>
-                </div>
-                <!-- End Slider Area --> 
-              </header>
-              <!-- Numbering Section Start -->
-              <section class="numbering-wrapper" id="aboutus">
-                <div class="container">
-                  <div class="section-title">
-                    <h2>О нас<span class="title-border-white"></span></h2>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                      <div class="number-services">
-                        <h3><span class="size">15</span><span class="total-text"><span class="text">лет </span><span class="big-text">Опыта работы</span></span></h3>
-                        <p class="line">Здесь можно написать краткий текст о компании.</p>
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <div class="single-section">
-                              <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                              <h3>Опытные сотрудники</h3>
-                              <p>Персонал нашей компании выполнит работу в срок.</p>
-                            </div>
-                          </div>
-                          <div class="col-sm-4">
-                            <div class="single-section">
-                              <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                              <h3>Качество работы</h3>
-                              <p>Мы гарантируем, что качество работы будет на высоте.</p>
-                            </div>
-                          </div>
-                          <div class="col-sm-4">
-                            <div class="single-section">
-                              <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                              <h3>Оптимальные цены</h3>
-                              <p>Здесь написать текст например про оптимальные цены.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="counter">
-                            <div class="icon"><span class="lnr lnr-users"></span></div>
-                            <div class="number animateNumber" data-num="345"> <span>345</span></div>
-                            <p>Довольных клиентов</p>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="counter">
-                            <div class="icon"><span class="lnr lnr-clock"></span></div>
-                            <div class="number animateNumber" data-num="7200"> <span>7200</span></div>
-                            <p>Ещё какой-нибудь факт</p>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="counter">
-                            <div class="icon"><span class="lnr lnr-home"></span></div>
-                            <div class="number animateNumber" data-num="320"> <span>320</span></div>
-                            <p>Домов обслужено</p>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="counter">
-                            <div class="icon"><span class="lnr lnr-gift"></span></div>
-                            <div class="number animateNumber" data-num="12"> <span>12</span></div>
-                            <p>Наград получено</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <!-- Numbering Section End -->
-<!-- Main Services Wrapper Start 
-<section class="main-services-wrapper">
-<div class="container">
-<div class="row">
-    <div class="section-title">
-      <h2>Main Services</h2>
-      <span class="title-border-white"></span></div>
+      </div>
+    </div>
   </div>
- <div class="service-callouts">
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-1.png" alt="">
-    <h3>Services 1</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+  <div class="header-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="logo"> <a href="#"><img src="images/logo.png" alt="#" data-popupalt-original-title="null" title="#"></a> </div>
+          <div class="mobile-menu"></div>
+        </div>
+        <div class="col-lg-9 col-md-9">
+          <nav class="navbar navbar-default desktop">
+            <div class="navbar-collapse"> 
+              <!-- Main Menu -->
+              <ul id="nav" class="nav navbar-nav menu">
+                <li><a class="smoth-scroll" href="#home">Главная</a></li>
+                <li><a class="smoth-scroll" href="#about1">О нас</a></li>
+                <li><a class="smoth-scroll" href="#services">Услуги</a></li>
+                <li><a class="smoth-scroll" href="#testimonials1">Отзывы</a></li>
+                <li><a class="smoth-scroll" href="#contact">Контакты</a></li>
+              </ul>
+              <!-- End Main Menu --> 
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-2.png" alt="">
-    <h3>Services 2</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+</header>
+<!-- Header End --> 
+<!-- Banner Wrapper Start -->
+<div class="banner-wrapper" id="home">
+  <div id="first-slider" class="">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade"> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox"> 
+        <!-- Item 1 -->
+        
+        <!-- Item 2 -->
+        <div class="item slide2 active">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-4 col-sm-5 text-center hidden-sm hidden-md hidden-lg"> <img data-animation="animated zoomInLeft" src="images/slider-img1.png" alt=""> </div>
+              <div class="col-md-8 col-sm-7 text-left">
+                <h1 data-animation="animated bounceInLeft" class="">Лучшие <span>услуги электрика</span></h1>
+                <p data-animation="animated bounceInLeft" class="">Наша компания занимается заменой электрики, монтажом систем безопасности и ремонтом бытовой техники.</p>
+                <a class="btn btn-hero" data-animation="animated bounceInLeft" href="#services">Наши услуги</a> </div>
+              <div class="col-md-4 col-sm-5 text-right hidden-xs"> <img data-animation="animated zoomInLeft" src="images/slider-img1.png" alt=""> </div>
+            </div>
+          </div>
+        </div>
+        <div class="item slide1 ">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-4 col-sm-5 text-center hidden-sm hidden-md hidden-lg"> <img data-animation="animated zoomInLeft" src="images/slider-img2.png" alt=""> </div>
+              <div class="col-md-8 col-sm-7 text-left">
+                <h1 data-animation="animated bounceInLeft" class="">Оказываем <span>услуги ремонта</span></h1>
+                <p data-animation="animated bounceInLeft" class="">Выполняем все виды ремонта под ключ Вашего дома или квартиры.</span></p>
+                <a class="btn btn-hero" data-animation="animated bounceInLeft" href="#contact">Наши контакты</a> </div>
+              <div class="col-md-4 col-sm-5 text-right hidden-xs"> <img data-animation="animated zoomInLeft" src="images/slider-img1.png" alt=""> </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+      </div>
+      <!-- End Wrapper for slides--> <a class="left carousel-control" href="#carousel-example-generic" role="button"
+        data-slide="prev"> <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic"
+        role="button" data-slide="next"> <i class="fa fa-angle-right"></i><span class="sr-only">Next</span> </a> </div>
   </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-3.png" alt="">
-    <h3>Services 3</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-4.png" alt="">
-    <h3>Services 4</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-1.png" alt="">
-    <h3>Services 1</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-2.png" alt="">
-    <h3>Services 2</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-3.png" alt="">
-    <h3>Services 3</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
-  <div class="col-sm-6 col-md-3 single-selection"> <img src="images/main-services-icon-4.png" alt="">
-    <h3>Services 4</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
-</div> 
 </div>
-</section>-->
-<!-- Main Services Wrapper End -->
-<!-- About Us Start 
-<section id="aboutus" class="aboutus angle">
-  <div class="container">
-    <div class="section-title">
-      <h2>About Us</h2>
-      <span class="title-border-white"></span></div>
-  </div>
+<!-- Banner Wrapper End --> 
+<!-- cta Wrapper Start -->
+<div class="cta-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <div class="about-img"> <a href="#"> <img src="images/about-us.jpg" alt=""></a> </div>
+      <div class="col-sm-4">
+        <div class="cta-inner cta-text">Имеются вопросы по ремонту и электрике? Позвоните или оставьте заявку на сайте.</div>
       </div>
-      <div class="col-sm-6">
-        <div class="about-text">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently PageMaker of Lorem Ipsum.</p>
-          <ul class="about-list hidden-sm">
-            <li><a href="#">Electrical Repair</a></li>
-            <li><a href="#">Electrical Services</a></li>
-            <li><a href="#">Residential Electrician</a></li>
-            <li><a href="#">Commercial Electrician</a></li>
-            <li><a href="#">Industrial Electrician</a></li>
-            <li><a href="#">Fan Repair</a></li>
-            <li><a href="#">Ac Repair</a></li>
-            <li><a href="#">Emergency Electrician</a></li>
-            <li class="last"><a href="#">Electrical Repair</a></li>
-            <li class="last"><a href="#">Electrical Services</a></li>
-          </ul>
+      <div class="col-sm-5">
+        <div class="cta-inner cta"> <img src="images/cta-phone-icon.png" alt="">
+          <h3>Бесплатная консультация <span>8(800)5553535</span></h3>
         </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="cta-inner cta-btn"> <a href="#contact">Заказать <i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
       </div>
     </div>
   </div>
-</section>-->
-<!-- Our Team Start -->
-<!--
-<section id="ourteam" class="ourteam">
+</div>
+<!-- cta Wrapper End --> 
+<!-- Our Services Start -->
+<section class="our-services-wrapper" id="services">
   <div class="container">
-    <div class="section-title">
-      <h2>Our Team <span class="title-border-white"></span></h2>
-    </div>
-  </div>
-  <div class="container">
-    <div id="our-team" class="owl-carousel owl-theme">
-      <div class="item">
-        <div class="corporate-team">
-          <div class="team-member wow fadeIn" data-wow-delay=".2s">
-            <div class="overlay text-center">
-              <div class="overlay-main">
-                <div class="table-cell">
-                  <div class="team-icon-grid">
-                    <div class="team-icon text-center">
-                      <ul class="team-social">
-                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div> 
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <img src="images/our-team1.jpg" alt="" class="team-img"> </div>
-
-          <div class="team-details">
-            <h3>Person Name</h3>
-            <h4>Designation</h4>
-          </div>
-
-        </div>
-      </div>
-      <div class="item">
-        <div class="corporate-team">
-          <div class="team-member wow fadeIn" data-wow-delay=".2s">
-            <div class="overlay text-center">
-              <div class="overlay-main">
-                <div class="table-cell">
-                  <div class="team-icon-grid">
-                    <div class="team-icon text-center">
-                      <ul class="team-social">
-                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <img src="images/our-team2.jpg" alt="" class="team-img"> </div>
-
-          <div class="team-details">
-            <h3>Person Name</h3>
-            <h4>Designation</h4>
-          </div>
-
-        </div>
-      </div>
-      <div class="item">
-        <div class="corporate-team">
-          <div class="team-member wow fadeIn" data-wow-delay=".2s">
-            <div class="overlay text-center">
-              <div class="overlay-main">
-                <div class="table-cell">
-                  <div class="team-icon-grid">
-                    <div class="team-icon text-center">
-                      <ul class="team-social">
-                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
- 
-                  </div>
-
-                </div>
- 
-              </div>
-
-            </div>
-
-            <img src="images/our-team3.jpg" alt="" class="team-img"> </div>
-
-          <div class="team-details">
-            <h3>Person Name</h3>
-            <h4>Designation</h4>
-          </div>
-
-        </div>
-      </div>
-      <div class="item">
-        <div class="corporate-team">
-          <div class="team-member wow fadeIn" data-wow-delay=".2s">
-            <div class="overlay text-center">
-              <div class="overlay-main">
-                <div class="table-cell">
-                  <div class="team-icon-grid">
-                    <div class="team-icon text-center">
-                      <ul class="team-social">
-                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <img src="images/our-team4.jpg" alt="" class="team-img"> </div>
-
-          <div class="team-details">
-            <h3>Person Name</h3>
-            <h4>Designation</h4>
-          </div>
-
-        </div>
-      </div>
-      <div class="item">
-        <div class="corporate-team">
-          <div class="team-member wow fadeIn" data-wow-delay=".2s">
-            <div class="overlay text-center">
-              <div class="overlay-main">
-                <div class="table-cell">
-                  <div class="team-icon-grid">
-                    <div class="team-icon text-center">
-                      <ul class="team-social">
-                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-
-                  </div>
-
-                </div>
- 
-              </div>
-
-            </div>
-
-            <img src="images/our-team1.jpg" alt="" class="team-img"> </div>
-
-          <div class="team-details">
-            <h3>Person Name</h3>
-            <h4>Designation</h4>
-          </div>
-
-        </div>
-      </div>
-      <div class="item">
-        <div class="corporate-team">
-          <div class="team-member wow fadeIn" data-wow-delay=".2s">
-            <div class="overlay text-center">
-              <div class="overlay-main">
-                <div class="table-cell">
-                  <div class="team-icon-grid">
-                    <div class="team-icon text-center">
-                      <ul class="team-social">
-                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <img src="images/our-team2.jpg" alt="" class="team-img"> </div>
-
-          <div class="team-details">
-            <h3>Person Name</h3>
-            <h4>Designation</h4>
-          </div>
-
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</section>-->
-
-<!-- Services Start -->
-<section id="services" class="services">
-  <div class="container">
-    <div class="section-title">
-      <h2>Услуги<span class="title-border-white"></span></h2>
-    </div>
-  </div>
-  <div class="container">
+    <div class="title">
+      <h2>Наши услуги</h2>
+      <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span> </div>
     <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <div class="single-service-item">
-          <div class="single-service-icon"><img src="images/maintenance.png" alt=""></div>
-          <div class="single-service-title">
-            <h3>Прочие услуги</h3>
-          </div>
-          <div class="single-service-content">
-            <p>Lorem ipsum ipsum ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="single-service-item">
-          <div class="single-service-icon"><img src="images/repair.png" alt=""></div>
-          <div class="single-service-title">
-            <h3>Консультация мастера</h3>
-          </div>
-          <div class="single-service-content">
-            <p>Lorem ipsum ipsum ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="images/services-icon1.png" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Консультация мастера</h3>
+                <p>Консультируем по всем вопросам, касающимся электрики и ремонта квартир</p>
+                <a href="#contact">Заказать</a> </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="single-service-item">
-          <div class="single-service-icon"><img src="images/installation.png" alt=""></div>
-          <div class="single-service-title">
-            <h3>Ремонт бытовой техники</h3>
-          </div>
-          <div class="single-service-content">
-            <p>Lorem ipsum ipsum ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="single-service-item">
-          <div class="single-service-icon"><img src="images/heating.png" alt=""></div>
-          <div class="single-service-title">
-            <h3>Установка кондиционеров</h3>
-          </div>
-          <div class="single-service-content">
-            <p>Lorem ipsum ipsum ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="images/services-icon2.png" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Ремонт бытовой техники</h3>
+                <p>Занимаемся ремонтом от холодильников до стиральных машин</p>
+                <a href="#contact">Заказать</a> </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="single-service-item">
-          <div class="single-service-icon"><img src="images/security.png" alt=""></div>
-          <div class="single-service-title">
-            <h3>Системы безопасности</h3>
-          </div>
-          <div class="single-service-content">
-            <p>Lorem ipsum ipsum ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="images/services-icon4.png" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Установка кондиционеров</h3>
+                <p>Поможем определиться с выбором и установим кондиционер</p>
+                <a href="#contact">Заказать</a> </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="single-service-item">
-          <div class="single-service-icon"><img src="images/electrical.png" alt=""></div>
-          <div class="single-service-title">
-            <h3>Полный цикл</h3>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="images/services-icon3.png" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Системы безопасноти</h3>
+                <p>Установим все виды систем безопасноти в Вашем доме</p>
+                <a href="#contact">Заказать</a> </div>
+            </div>
           </div>
-          <div class="single-service-content">
-            <p>Lorem ipsum ipsum ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="images/services-icon5.png" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Замена проводки</h3>
+                <p>Выполним полный цикл работы по замене электрики</p>
+                <a href="#contact">Заказать</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="images/services-icon6.png" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Ремонт под ключ</h3>
+                <p>А так же оказываем услуги ремонта</p>
+                <a href="#contact">Заказать</a> </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Services End --> 
-<!-- call to action Start --> 
-<div class="call-to-action">
+<!-- Our Services End --> 
+<!-- About Wrapper Start -->
+<section class="about-wrapper" id="about1">
+  <div class="container">
+    <div class="title">
+      <h2>О компании</h2>
+      <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span> </div>
+    <div class="mb-30">
+      <div class="display-table"> 
+        <!-- display-table-cell -->
+        <div class="display-table-cell width-50">
+          <div class="service-image">
+            <div class="border_style top left"><span></span></div>
+            <div class="border_style bottom right"><span></span></div>
+            <img src="images/about-us-img.jpg" alt="" title=""></div>
+        </div>
+        <!-- display-table-cell -->
+        <div class="display-table-cell width-50">
+          <div class="about-text-area">
+            
+            <p>Более 10 лет компания "Название" выполняет весь спектр работ по <strong>замене электрики, ремонту и обслуживанию домов и квартир</strong>. За это время мы накопили немалый практический опыт, с помощью которого наша компания имеет возможность предложить выгодные цены и профессиональную техническую поддержку каждому из клиентов, заинтересованному в <strong>ремонте своего дома</strong>.</p>
+            <a href="#contacts">Заказать</a> </div>
+          <!-- about-area --> 
+        </div>
+      </div>
+      <!-- display-table --> 
+    </div>
+  </div>
+</section>
+<!-- About Wrapper End --> 
+<!-- Join Wrapper Start -->
+<div class="join-wrapper">
+  <div class="container">
+    <h3>Оказываем услуги по замене электрики <span>Название компании</span></h3>
+    <a href="#contact">Связаться с нами</a> </div>
+</div>
+<!-- Join Wrapper End --> 
+<!-- Our Team Wrapper Start 
+<section class="our-team-wrapper">
+  <div class="container">
+    <div class="title">
+      <h2>Our Team</h2>
+      <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span> </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="team-item">
+          <div class="team-item-image"> <img src="images/out-team1.jpg" alt="">
+            <div class="team-item-detail">
+              <div class="team-social-links"> <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> <a href="#" target="_blank"><i class="fa fa-twitter"></i></a> <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a> </div>
+            </div>
+          </div>
+          <div class="team-item-descr font-alt">
+            <div class="team-item-name">Robin Williams</div>
+            <div class="team-item-role">Founder</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="team-item">
+          <div class="team-item-image"> <img src="images/out-team2.jpg" alt="">
+            <div class="team-item-detail">
+              <div class="team-social-links"> <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> <a href="#" target="_blank"><i class="fa fa-twitter"></i></a> <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a> </div>
+            </div>
+          </div>
+          <div class="team-item-descr font-alt">
+            <div class="team-item-name">Robin Williams</div>
+            <div class="team-item-role">Founder</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="team-item">
+          <div class="team-item-image"> <img src="images/out-team3.jpg" alt="">
+            <div class="team-item-detail">
+              <div class="team-social-links"> <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> <a href="#" target="_blank"><i class="fa fa-twitter"></i></a> <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a> </div>
+            </div>
+          </div>
+          <div class="team-item-descr font-alt">
+            <div class="team-item-name">Robin Williams</div>
+            <div class="team-item-role">Founder</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="team-item">
+          <div class="team-item-image"> <img src="images/out-team4.jpg" alt="">
+            <div class="team-item-detail">
+              <div class="team-social-links"> <a href="#" target="_blank"><i class="fa fa-facebook"></i></a> <a href="#" target="_blank"><i class="fa fa-twitter"></i></a> <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a> </div>
+            </div>
+          </div>
+          <div class="team-item-descr font-alt">
+            <div class="team-item-name">Robin Williams</div>
+            <div class="team-item-role">Founder</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ Our Team Wrapper End  -->
+<!-- Latest Projects Wrapper Start
+<section class="latest-projects-wrapper">
+  <div class="container">
+    <div class="title">
+      <h2>Latest Projects</h2>
+      <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span> </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="project-box border"> <img src="images/latest-projects-icon1.png" alt="">
+          <h3>Electrical Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod voluptatem</p>
+        </div>
+        <div class="project-box"> <img src="images/latest-projects-icon2.png" alt="">
+          <h3>Electrical Installation</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod voluptatem</p>
+        </div>
+      </div>
+      <div class="col-sm-5 hidden-sm">
+        <div class="project-box-img"> <img src="images/latest-project-img.png" alt=""> </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="project-box border"> <img src="images/latest-projects-icon3.png" alt="">
+          <h3>Electrical Interior</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod voluptatem</p>
+        </div>
+        <div class="project-box"> <img src="images/latest-projects-icon4.png" alt="">
+          <h3>Electrical Lighting</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod voluptatem</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+Latest Projects Wrapper End --> 
+
+<!-- Counters Wrapper Start -->
+<div class="counters">
   <div class="container">
     <div class="row">
-      <div class="col-sm-9">
-        <h3>Нужна помощь или остались вопросы?</h3>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="counter">
+          <div class="counter-icon-box"><img src="images/counter-icon1.png" alt=""></div>
+          <div class="counter-right">
+            <div class="number animateNumber" data-num="160"> <span>160</span></div>
+            <h3>Довольных клиентов</h3>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-3"> <a href="#contactus" class="btn-one pull-right smoth-scroll">Связаться с нами</a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="counter">
+          <div class="counter-icon-box"><img src="images/counter-icon2.png" alt=""></div>
+          <div class="counter-right">
+            <div class="number animateNumber" data-num="90"> <span>90</span></div>
+            <h3>Домов обслужено</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="counter last">
+          <div class="counter-icon-box"><img src="images/counter-icon3.png" alt=""></div>
+          <div class="counter-right">
+            <div class="number animateNumber" data-num="150"> <span>150</span></div>
+            <h3>Заказов выполнено</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="counter last">
+          <div class="counter-icon-box"><img src="images/counter-icon4.png" alt=""></div>
+          <div class="counter-right">
+            <div class="number animateNumber" data-num="10"> <span>10</span></div>
+            <h3>Лет опыта</h3>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!-- call to action End --> 
+<!-- Counters Wrapper End --> 
+
 <!-- Testimonials Wrapper Start -->
-<section id="testimonials" class="testimonials-wrapper">
+<section class="testimonials-wrapper" id="testimonials1">
   <div class="container">
-    <div class="section-title">
-      <h2>Отзывы наших клиентов<span class="title-border-white"></span></h2>
-    </div>
-  </div>
-  <div class="container">
-    <div id="our-testimonials" class="owl-carousel owl-theme">
-      <div class="item">
-        <div class="testimonials-inner">
-          <div class="test-quote">
-            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,pisci velit, sed quia non numquam eius modi tmpora incidunt ut labore et dolore magnam aliquam quaerat sectetur isci sed quia non numquam eius modi.</p>
-          </div>
-          <div class="testmonials-info">
-            <div class="testmonials-pic"> <img src="images/testimonials1.png" alt=""> </div>
-            <div class="testmonials-details">
-              <h4>Фамилия Имя</h4>
-                <span>Должность</span> </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="testimonials-inner">
-            <div class="test-quote">
-              <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,pisci velit, sed quia non numquam eius modi tmpora incidunt ut labore et dolore magnam aliquam quaerat sectetur isci sed quia non numquam eius modi.</p>
-            </div>
-            <div class="testmonials-info">
-              <div class="testmonials-pic"> <img src="images/testimonials2.png" alt=""> </div>
-              <div class="testmonials-details">
-                <h4>Фамилия Имя</h4>
-                <span>Должность</span> </div>
+    <div class="title">
+      <h2>Отзывы</h2>
+      <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span> </div>
+    <div class="row">
+      <div class="col-md-8 col-sm-12 col-md-offset-2 col-sm-offset-0 col-xs-offset-0">
+        <div id="testimonials" class="owl-carousel">
+          <div class="item">
+            <div class="testimonials-main">
+              <div class="testimonials-inner">
+                <p>Выражаю особую благодарность компании "Компания" за оперативность и отвтетственный подход к работе. Нам нужно было заменить проводку во всём доме. Замена производилась уже в отремонтированных помещениях, в связи с чем, выражаю благодарность за качественную и профессиональную работу. Рекомендую данную компанию всем, кому необходима надежная и качественная замена электрики в доме.</p>
               </div>
+              <div class="testimonials-text">
+                <p class="client-name">Фамилия имя</p>
+                <p>Должность\Компания</p>
+              </div>
+              <div class="testimonial-img"> <img src="images/testimonials1.png" alt=""> </div>
             </div>
           </div>
           <div class="item">
-            <div class="testimonials-inner">
-              <div class="test-quote">
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,pisci velit, sed quia non numquam eius modi tmpora incidunt ut labore et dolore magnam aliquam quaerat sectetur isci sed quia non numquam eius modi.</p>
+            <div class="testimonials-main">
+              <div class="testimonials-inner">
+                <p>Компания "Название" выполнила свою работу качественно и оперативно. Наши мечты об комфортной квартире сбылись. Пытилсь выбрать из нескольких компаний, но выбор пал конкретно на "название". Команда приступила к работе довольно быстро, а качество дальнейшей работы приятно удивила. Поэтому могу смело порекомендовать "Название" как профессионального и ответственного партнёра.</p>
               </div>
-              <div class="testmonials-info">
-                <div class="testmonials-pic"> <img src="images/testimonials3.png" alt=""> </div>
-                <div class="testmonials-details">
-                  <h4>Фамилия Имя</h4>
-                <span>Должность</span> </div>
+              <div class="testimonials-text">
+                <p class="client-name">Фамилия имя</p>
+                <p>Должность\Компания</p>
+              </div>
+              <div class="testimonial-img"> <img src="images/testimonials2.png" alt=""> </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-main">
+              <div class="testimonials-inner">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+              </div>
+              <div class="testimonials-text">
+                <p class="client-name">Фамилия имя</p>
+                <p>Должность\Компания</p>
+              </div>
+              <div class="testimonial-img"> <img src="images/testimonials3.png" alt=""> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials Wrapper End --> 
+<!-- Inner Page Wrapper Start -->
+<div class="inner-page-wrapper contact-wrapper" id="contact">
+  <div class="container">
+  <div class="title">
+      <h2>Оставить заявку</h2>
+      <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span> </div>
+  <div class="row">
+  <div class="col-sm-8 col-sm-offset-2 col-xs-offset-0">
+  <div class="contact-form">
+          <form method="post" id="contact-form">
+            <div class="row">
+              <div class="col-sm-6">
+                <input class="con-field" name="name" id="name" required="" placeholder="Имя" type="text">
+              </div>
+              <div class="col-sm-6">
+                <input class="con-field" name="messageForm" required="" id="messageForm" placeholder="Тема" type="text">
+              </div>
+              <div class="col-sm-6">
+                <input class="con-field" name="phone" required="" id="phone" placeholder="Телефон" type="text">
+              </div>
+              <div class="col-sm-6">
+                <input class="con-field" name="email" required="" id="email" placeholder="Email" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <textarea class="con-field" name="message" id="message" rows="6" placeholder="Ваше сообщение"></textarea>
+                <div class="submit-area">
+                  <button class="btn-one">Отправить</button>
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="testimonials-inner">
-                <div class="test-quote">
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,pisci velit, sed quia non numquam eius modi tmpora incidunt ut labore et dolore magnam aliquam quaerat sectetur isci sed quia non numquam eius modi.</p>
-                </div>
-                <div class="testmonials-info">
-                  <div class="testmonials-pic"> <img src="images/testimonials1.png" alt=""> </div>
-                  <div class="testmonials-details">
-                    <h4>Фамилия Имя</h4>
-                <span>Должность</span> </div>
-                  </div>
-                </div>
-              </div>
-             
-                      </div>
-                    </div>
-                  </section>
-                  <!-- Testimonials Wrapper End --> 
-                  <!-- Google Map end --> 
-                  <!-- Contact Us Start -->
-                  <section id="contactus" class="contactus">
-                    <div class="container">
-                      <div class="section-title">
-                        <h2>Контакты<span class="title-border-white"></span></h2>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                          <div class="contact-form">
-                            <form method="post" id="contact-form">
-                              <div class="row">
-                                <div class="col-sm-6">
-                                  <input class="con-field" name="name" id="name" required placeholder="Ваше имя" type="text">
-                                </div>
-                                <div class="col-sm-6">
-                                  <input class="con-field" name="messageForm" required id="messageForm" placeholder="Тема" type="text">
-                                </div>
-                                <div class="col-sm-6">
-                                  <input class="con-field" name="phone" required id="phone" placeholder="Телефон" type="text">
-                                </div>
-                                <div class="col-sm-6">
-                                  <input class="con-field" name="email" required id="email" placeholder="Email" type="text">
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <textarea class="con-field" name="message" id="message" rows="6" placeholder="Сообщение"></textarea>
-                                  <div class="submit-area">
-                                    <button class="btn-one">Отправить</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                          <div class="google-map">
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa5dcfec73a226e7b13dedd845ee004ecd422151df1cecd9c93e4f887f9bd8f16&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
-                            <div class="map-content">
-                              <ul>
-                                <li><i class="fa fa-home"></i>г.Москва, Улица Пушкина, 26</li>
-                                <li><i class="fa fa-clock-o"></i>9:00 - 20:00 ПН-ПТ</li>
-                                <li><i class="fa fa-phone"></i>Телефон : 8(800)345-6789 </li>
-                                <li><i class="fa fa-envelope"></i>Email : conctact@site.ru</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <!-- Contact Us End --> 
-                  <!-- Copy Rights Start -->
-                  <footer>
-                    <div class="container">
-                      <p>&copy; 2018 Название компании</p>
-                    </div>
-                  </footer>
-                  <!-- Copy Rights End --> 
-                  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-                  <script src="assets/jquery/jquery-3.1.1.min.js"></script> 
-                  <!-- Include all compiled plugins (below), or include individual files as needed --> 
-                  <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
-                  <script src="assets/easing/jquery.easing.min.js"></script> 
-                  <script src="assets/jquery/jquery.animateNumber.min.js"></script> 
-                  <script src="assets/jquery/plugins.js"></script> 
-                  <script src="assets/owl-carousel/js/owl.carousel.js"></script> 
-                  <script src="js/custom.js"></script> 
-                </body>
-                </html>
+          </form>
+        </div>
+  </div>
+  </div>
+  </div>
+ <div class="google-map">
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A59d70fb16685f56846b6a63e1ca13fbaf5f5010c4cba9f86ba7f98c8951f719a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+
+  <div class="contact-info-main">
+  <div class="container">
+  <div class="contact-info">
+  <div class="title">
+      <h2>Контактная информация</h2>
+    <span class="border"></span>
+   </div>
+  <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="contact-box border"> <img src="images/phone-icon.png" alt="">
+          <h3>Телефон</h3>
+          <p>(800) 123 45 69 or  (012) 123 45 69</p>
+        </div>
+        <div class="contact-box"> <img src="images/email-icon.png" alt="">
+          <h3>Email</h3>
+          <p><a href="mailto:info@sbtechnosoft.com">info@site.ru</a></p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-4 col-sm-6 hidden-sm hidden-xs">
+        <div class="contact-box-img"> <img src="images/contact-us-icon.png" alt=""> </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="contact-box border"> <img src="images/fax-icon.png" alt="">
+          <h3>Fax</h3>
+          <p>(600) 123 4569 or (012) 123 45 69</p>
+        </div>
+        <div class="contact-box"> <img src="images/map-icon.png" alt="">
+          <h3>Адрес</h3>
+          <p>г.Москва, ул.Пушкина, 26</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div> 
+</div>
+<!-- Inner Page Wrapper End --> 
+
+<!-- Footer Wrapper Start
+<footer class="footer-wrapper">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="intro">
+          <div class="flogo"><img src="images/footer-logo.png" alt=""></div>
+          <p class="intro-content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="extralinks">
+          <h4 class="title">Information</h4>
+          <div class="extralinks-cols">
+            <ul class="extralinks-col">
+              <li> <a href="javascript:void(0)">Customer Service</a> </li>
+              <li> <a href="javascript:void(0)">Privacy Policy</a> </li>
+              <li> <a href="javascript:void(0)">Site Map</a> </li>
+              <li> <a href="javascript:void(0)">Advanced Search</a></li>
+              <li> <a href="javascript:void(0)">Orders and Returns</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="extralinks">
+          <h4 class="title">Страницы</h4>
+          <div class="extralinks-cols">
+            <ul class="extralinks-col">
+              <li> <a href="javascript:void(0)">Главная</a> </li>
+              <li> <a href="javascript:void(0)">О нас</a> </li>
+              <li> <a href="javascript:void(0)">Услуги</a> </li>
+              <li> <a href="javascript:void(0)">Отзывы</a></li>
+              <li> <a href="javascript:void(0)">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="address">
+          <h4 class="title">Contact Us</h4>
+          <div class="extralinks-cols">
+            <ul class="extralinks-col">
+              <li> <span class="fcontact-icon fa fa-clock-o"></span> Mon - Sat 9:00 a.m. - 6:00 p.m. <br>
+                Sunday Closed </li>
+              <li><span class="fcontact-icon fa fa-map-marker"></span>11th Floor, 645 Hudson Street, NY 10018 USA</li>
+              <li><span class="fcontact-icon fa fa-phone"></span>012 345 6789</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="footer-cta-wrapper">
+	<div class="row">
+      <div class="col-sm-9">
+	    <img src="images/footer-cta-icon.png" alt="">
+        <h3>Нужны качественные услуги электрика в Москве?</h3>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="col-sm-3"> <a href="javascript:void(0)" class="pull-right">Оставить заявку</a> </div>
+    </div>
+	</div>
+  </div>
+</footer> Footer Wrapper End --> 
+<!-- Copyright Wrapper End -->
+<div class="copyright-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>&copy; <span id="year"></span> Название компании</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Copyright Wrapper End --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="assets/jquery/jquery-3.1.1.min.js"></script> 
+<script src="assets/easing/jquery.easing.min.js"></script> 
+<script src="assets/jquery/slicknav.min.js"></script> 
+<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+<script src="assets/number-animation/jquery.animateNumber.min.js"></script> 
+<script src="assets/owl-carousel/js/owl.carousel.js"></script> 
+<script src="assets/wow/wow.min.js"></script> 
+<script src="assets/jquery/slider.js"></script> 
+<script src="assets/jquery/plugins.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>

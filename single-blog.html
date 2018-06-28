@@ -1,415 +1,604 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Electric Template | Blog details</title>
-
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-
-<!-- mobile responsive meta -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<!--Favicon-->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Electricshop</title>
+<!-- Bootstrap CSS -->
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS-->
+<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Linear icons CSS-->
+<link href="assets/linearicons/css/icon-font.min.css" rel="stylesheet">
+<!-- Slick Nav CSS -->
+<link rel="stylesheet" href="assets/css/slicknav.min.css">
+<!-- Owl Carousel -->
+<link href="assets/owl-carousel/css/owl.carousel.css" rel="stylesheet">
+<link href="assets/owl-carousel/css/owl.theme.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+<!-- Animate CSS -->
+<link href="assets/animate/animate.css" rel="stylesheet">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
-
 <body>
-<div class="page-wrapper">  
-    
-
-    <!-- .preloader -->
-    <div class="preloader"></div>
-    <!-- /.preloader -->
-    
-
-    <!--header top-->
-    <div class="header-top"></div>
-    <!--header top-->
-
-   
-    <!--Main Header-->
-    <header class="main-header sticky-header">
-        <div class="container">
-            <div class="header-area">
-                <div class="main-logo">
-                    <figure>
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
-                    </figure>
-                </div>
-                <nav class="main-menu text-center">
-                    <div class="navbar-header">
-                        <!-- Toggle Button -->      
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>           
-                    <div class="navbar-collapse collapse clearfix">
-                        <ul class="navigation clearfix">
-                            <li><a href="index.html">Home</a></li>                          
-                            <li><a href="about.html">About</a></li>
-                            <li class="dropdown"><a href="#">Services</a>
-                                <ul>
-                                    <li><a href="service.html">Services</a></li>
-                                    <li><a href="service-details.html">Service details</a></li>
-                                </ul>                                
-                            </li>
-                            <li class="dropdown"><a href="#">Pages</a>
-                                <ul>
-                                    <li><a href="gallery.html">our gallery</a></li>
-                                    <li><a href="team.html">our team</a></li>
-                                    <li><a href="faq.html">faq</a></li>
-                                    <li><a href="error.html">error page</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown current"><a href="#">News</a>
-                                <ul>
-                                    <li><a href="blog.html">our blog</a></li>
-                                    <li><a href="single-blog.html">single blog</a></li>
-                                </ul>
-                            </li>                   
-                            <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </div>                    
-                </nav>
-                <div class="contact-links">
-                    <h6><i class="flaticon-phone-call"></i>+251-235-3256</h6>
-                </div>
-            </div>
+<!-- Pre Loader -->
+<div id="dvLoading"></div>
+<!-- Header Start -->
+<header class="wow fadeInDown" data-offset-top="197" data-spy="affix">
+  <div class="top-wrapper hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <div class="guest"> Hi Guest! Welcome to Electric Website</div>
         </div>
-    </header>
-    <!--End Main Header -->
-
-
-    <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/about/3.jpg);">
-        <div class="container">
-            <div class="title-text text-center">
-                <h1>blog details</h1>
-            </div>           
+        <div class="col-lg-5 col-md-6 hidden-sm">
+          <div class="top-header-add">
+            <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span> +61 5001444-122</div>
+            <div class="book"><a href="javascript:void(0)"><i class="fa fa-globe" aria-hidden="true"></i><span>Book Online</span></a></div>
+          </div>
         </div>
-    </section>
-    <!--End Page Title-->
-
-
-    <!--Title menu-->
-    <section class="title-menu">
-        <div class="container">
-            <ul class="title-list text-center">
-                <li><a href="index.html">home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-                <li>blog details</li>
-            </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#" data-popupalt-original-title="null" title="#"></a> </div>
+          <div class="mobile-menu"></div>
         </div>
-    </section>
-    <!--End Title menu-->    
-    
-    
-    <!--blog section-->
-    <section class="blog-section style-two style-three">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                    <div class="left-side">
-                        <div class="image-holder">
-                            <div class="image-box">
-                                <figure>
-                                    <img src="images/blog/7.jpg" alt="">
-                                </figure>
-                            </div>     
-                        </div>
-                        <div class="content-text">
-                            <h5>Etiam dunt eant et diam Iuctus</h5>
-                            <ul class="blog-info">
-                                <li><i class="fa fa-user" aria-hidden="true"></i>by Admin</li>
-                                <li><i class="fa fa-comments-o" aria-hidden="true"></i>Comts 02</li>
-                            </ul>
-                            <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.veniam quis nostrud exercitation ullamco.laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
-                        </div> 
-                        <div class="Reviews-section">
-                            <blockquote>
-                                <strong>
-                                    <i>“Eatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem ipsum quia dolor sit amet”</i>
-                                </strong>
-                            </blockquote>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                            <ul class="social-links">
-                                <li><strong>Share:</strong></li>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="comments-area">
-                            <div class="section-title">
-                                <h6>Comments (3)</h6>
-                            </div>
-                            <div class="comment">
-                                <div class="image-holder">
-                                    <figure>
-                                        <img src="images/blog/8.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="image-text">
-                                    <h6>Jessica Brown</h6>
-                                    <h5>reply</h5>
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i>Mar 20, 2016</span>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi ut aliquip commodo consequat.</p>
-                                </div>                                            
-                            </div>                            
-                            <div class="comment reply-comment">
-                                <div class="image-holder">
-                                    <figure>
-                                        <img src="images/blog/9.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="image-text">
-                                    <h6>Jessica Brown</h6>
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i>Mar 20, 2016</span>                       
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqu laudant tota rem ape riamipsa eaque  quae nisi.</p>
-                                </div>                                    
-                            </div>                            
-                            <div class="comment">
-                                <div class="image-holder">
-                                    <figure>
-                                        <img src="images/blog/10.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="image-text">
-                                    <h6>Jessica Brown</h6>
-                                    <h5>reply</h5>                                
-                                    <span><i class="fa fa-calendar" aria-hidden="true"></i>Mar 20, 2016</span>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant tota rem ape riamipsa eaque  quae nisi ut aliquip commodo consequat.</p>
-                                </div>                                    
-                            </div>                            
-                        </div>
-                        <div class="form-area">
-                            <div class="form-title">
-                                <h6>Leave A Comment</h6>
-                            </div>
-                            <form id="contact_form" name="contact_form" class="default-form" action="sendmail.php" method="post">
-                                <div class="row clearfix">
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="text" name="form_name" class="form-control" value="" placeholder="Name" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="email" name="form_email" class="form-control required email" value="" placeholder="Email" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <textarea name="form_message" class="form-control textarea required" placeholder="message"></textarea>
-                                        </div>
-                                    </div>   
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div class="form-group form-bottom">
-                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                            <button class="btn-style-one" type="submit" data-loading-text="Please wait...">SEND MESSAGE</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
-                    <div class="right-side">
-                        <div class="search-box">
-                            <form method="post" action="index.html">
-                                <input type="search" name="search" placeholder="Search Here" required="">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div class="categorise-menu">
-                            <div class="section-title">
-                                <h6>Categories</h6>
-                            </div>
-                            <ul class="categorise-list">
-                                <li><a href="#">Accommodation <span>(6)</span></a></li>
-                                <li><a href="#">Donation Event <span>(9)</span></a></li>
-                                <li><a href="#">Education <span>(3)</span></a></li>
-                                <li><a href="#">Food Supply <span>(5)</span></a></li>
-                                <li><a href="#">Health Care <span>(7)</span></a></li>
-                            </ul>                           
-                        </div>
-                        <div class="blog-side">
-                            <div class="section-title">
-                                <h6>Latest Post</h6>
-                            </div>
-                            <div class="single-item">
-                                <figure>
-                                    <a href="#"><img src="images/blog/3.jpg" alt=""></a>
-                                </figure>
-                                <a href="#"><h6>Totam Rem Aperiam Eaque<br>Ipsa Quae ab Illo.</h6></a>
-                                <span><i class="fa fa-calendar" aria-hidden="true"></i>02 Feb, 2017</span>
-                            </div>
-                            <div class="single-item">
-                                <figure>
-                                    <a href="#"><img src="images/blog/4.jpg" alt=""></a>
-                                </figure>
-                                <a href="#"><h6>Totam Rem Aperiam Eaque<br>Ipsa Quae ab Illo.</h6></a>
-                                <span><i class="fa fa-calendar" aria-hidden="true"></i>02 Feb, 2017</span>
-                            </div>
-                            <div class="single-item">
-                                <figure>
-                                    <a href="#"><img src="images/blog/5.jpg" alt=""></a>
-                                </figure>
-                                <a href="#"><h6>Totam Rem Aperiam Eaque<br>Ipsa Quae ab Illo.</h6></a>
-                                <span><i class="fa fa-calendar" aria-hidden="true"></i>02 Feb, 2017</span>
-                            </div>
-                            <div class="single-item">
-                                <figure>
-                                    <a href="#"><img src="images/blog/6.jpg" alt=""></a>
-                                </figure>
-                                <a href="#"><h6>Totam Rem Aperiam Eaque<br>Ipsa Quae ab Illo.</h6></a>
-                                <span><i class="fa fa-calendar" aria-hidden="true"></i>02 Feb, 2017</span>
-                            </div>
-                        </div>
-                        <div class="popular-tags">
-                            <div class="section-title">
-                                <h6>Popular Tags</h6>
-                            </div>
-                            <ul class="popular-list">
-                                <li><a href="#">Air Freight</a></li>
-                                <li><a href="#">Logistics</a></li>
-                                <li><a href="#">Mining</a></li>
-                                <li><a href="#">Repair</a></li>
-                                <li><a href="#">Ware Housing</a></li>
-                                <li><a href="#">Sample</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-lg-9 col-md-9">
+          <nav class="navbar navbar-default desktop">
+            <div class="navbar-collapse"> 
+              <!-- Main Menu -->
+              <ul id="nav" class="nav menu navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About US</a></li>
+                <li><a href="#">Services<i class="fa fa-circle"></i></a>
+                  <ul class="dropdown">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="service-details.html">Service details</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Pages<i class="fa fa-circle"></i></a>
+                  <ul class="dropdown">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="our-team.html">Our Team</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="404.html">404</a></li>
+                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+                <li class="active"><a href="#">Blog<i class="fa fa-circle"></i></a>
+                  <ul class="dropdown">
+                    <li><a href="our-blog.html">Our Blog</a></li>
+                    <li><a href="single-blog.html">Single Blog</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <!-- End Main Menu --> 
             </div>
+          </nav>
         </div>
-    </section>
-    <!--End blog section-->
-
-
-    <!--blog section-->
-    <section class="subscribe-section">
-        <div class="container">
-            <div class="section-text">
-                <h3>Subscribe to our Newsletter</h3>
-                <p>We’ll keep you with news and updates</p>
-            </div>
-            <form class="appoinment-form">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="input-email">
-                            <input type="email" name="form_email" value="" placeholder="Enter your email" required="">
-                        </div>                        
-                    </div>
-                    <div class="col-md-6">
-                        <button class="btn-style-one" type="submit">Subscribe</button>
-                    </div>
-                </div>                     
-            </form>
-            <div class="image-box">
-                <figure>
-                    <img src="images/resource/1.png" alt="">
-                </figure>
-            </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Header End --> 
+<!-- Breadcromb Wrapper Start -->
+<div class="breadcromb-wrapper">
+  <div class="breadcromb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="breadcromb-left">
+          <h3>Single Blog</h3>
         </div>
-    </section>
-    <!--blog section-->
-
-
-    <!--main-footer-->
-    <footer class="main-footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="left-column col-md-6 col-sm-12 col-xs-12">
-                        <div class="about-widget">
-                            <div class="footer-logo">
-                                <figure>
-                                    <a href="index.html"><img src="images/logo-2.png" alt=""></a>
-                                </figure>
-                            </div>
-                            <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip exea commodo conse quat. Duis aute irure dolor in reprehenderit.in voluptate velit esse cillum.dolore eu fugiat nulla pariatur.excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                        </div>
-                    </div>
-                    <div class="right-column col-md-6 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="menu-link">
-                                    <h6>Link</h6>
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Company History</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Services</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy Policy</a></li>
-                                    </ul>
-                                </div>                                    
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contact-links">
-                                    <h6>Contact Us</h6>
-                                    <ul class="location-info">
-                                        <li><strong>Address:</strong>&nbsp;&nbsp;&nbsp; 1201 park street,  Avenue, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dhanmondy, Dhaka.</li>
-                                        <li><strong>Phone: </strong>&nbsp;&nbsp; [88] 657 524 332</li>
-                                        <li><strong>Email: </strong>&nbsp; <a href="#">info@electric.com</a></li>
-                                    </ul>
-                                    <ul class="social-links">
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>                                    
-                            </div>
-                        </div>                            
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="copyright-text">
-                    <p><a href="index.html">Electric</a> &copy; 2017 All Right Reserved</p>
-                </div>
-            </div>
-        </div>    
-    </footer>
-    <!--End main-footer-->
-
-
+      </div>
+    </div>
+  </div>
 </div>
-
-<!--End pagewrapper-->
-
-
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-angle-up"></span></div>
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-select.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/html5lightbox.js"></script>
-
-<script src="js/owl.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/validate.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/jquery.countTo.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/script.js"></script>
+<div class="breadcromb-text">
+  <div class="container">
+    <ul>
+      <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>Blog</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>Single Blog</li>
+    </ul>
+  </div>
+</div>
+<!-- Breadcromb Wrapper End --> 
+<!-- Inner Page Wrapper Start -->
+<div class="inner-page-wrapper blog-single-area">
+  <div class="container">
+   <div class="row">
+  <div class="col-lg-7 col-md-12">
+    <div class="blog-post"> 
+      <!--Start single blog post-->
+      <div class="single-blog-post">
+        <div class="img-holder"> <img src="images/blog-single.jpg" alt=""> </div>
+        <div class="text-holder">
+          <h3 class="blog-title">Lorem Ipsum is simply dummy text the printing</h3>
+          <div class="meta-box"> <span class="thm-clr">Post Info</span>
+            <ul class="meta-info">
+              <li><span class="thm-clr">By:</span> <a href="#">Les</a></li>
+              <li><span class="thm-clr">On:</span> <a href="#">21st October 2017</a></li>
+              <li><span class="thm-clr">Category:</span> <a href="#">Electrical Repair</a></li>
+            </ul>
+          </div>
+          <div class="text">
+            <p class="mar-bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.</p>
+          </div>
+          <!--Start author slogan-->
+          <div class="author-slogan">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <div class="border-box"></div>
+            <div class="author-info">
+              <h3>Richard Venanda</h3>
+              <span class="thm-clr">CEO/Founder</span> </div>
+          </div>
+          <!--End author slogan--> 
+          <!--Start bottom content box-->
+          <div class="bottom-content-box">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="img-box"> <img src="images/caption-img.jpg" alt=""> </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="text-box">
+                  <p class="mar-btm">Explain you how this mistaken idea denouncing pleasure will give you a complete account of the system, and expound the the pain of itself occur great.</p>
+                  <p>The master-builder of human happiness which toil and pain can procure him some seds great pleasure take a of ever.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End bottom content box--> 
+          <!--Start tag box-->
+          <div class="tag-box">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="left pull-left">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                    <li><a href="#">18</a></li>
+                    <li><a href="#"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+                    <li><a href="#">6</a></li>
+                  </ul>
+                </div>
+                <div class="tag pull-right">
+                  <p><span>Tags:</span> Electric, Repair, Maintenance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End tag box--> 
+        </div>
+      </div>
+      <!--End single blog post--> 
+      <!--Start author box-->
+      <div class="author-box">
+        <div class="title">
+          <h3>About Author</h3>
+        </div>
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="img-holder"> <img src="images/author.jpg" alt=""> </div>
+              <div class="text-holder">
+                <h3>Lilly Anderson</h3>
+                <p>We will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                <ul class="social-link">
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End author box--> 
+      <!--Start comment box-->
+      <div class="inner-comment-box">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h3>Read Comments</h3>
+            </div>
+            <!--Start single comment box-->
+            <div class="single-comment-box">
+              <div class="img-holder"> <img src="images/comment1.jpg" alt=""> </div>
+              <div class="text-holder">
+                <div class="top">
+                  <div class="date pull-left">
+                    <h5>Steven Rich &ndash; Sep17, 2016:</h5>
+                  </div>
+                  <div class="review-box pull-right">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+                </div>
+              </div>
+            </div>
+            <!--End single comment box--> 
+            <!--Start single comment box-->
+            <div class="single-comment-box mar-left">
+              <div class="img-holder"> <img src="images/comment2.jpg" alt=""> </div>
+              <div class="text-holder">
+                <div class="top">
+                  <div class="date pull-left">
+                    <h5>William Cobus &ndash; Aug21, 2016:</h5>
+                  </div>
+                  <div class="review-box pull-right">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star-half-o"></i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="text">
+                  <p>There anyone who loves or pursues or desires to obtain pain itself, because it is pain, because occasionally circumstances occur some great pleasure.</p>
+                </div>
+              </div>
+            </div>
+            <!--End single comment box--> 
+          </div>
+        </div>
+      </div>
+      <!--End comment box--> 
+      <!--Start add comment box-->
+      <div class="add-comment-box">
+        <div class="title">
+          <h3>Add Your Comments</h3>
+        </div>
+        <div class="add-rating-box">
+          <h4>Your Rating</h4>
+          <ul>
+            <li> <a href="#"> <i class="fa fa-star"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </a> </li>
+            <li> <a href="#"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </a> </li>
+          </ul>
+        </div>
+        <form id="add-comment-form" action="#" novalidate>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="field-label">First Name*</div>
+                  <input name="fname" value="" placeholder="" required aria-required="true" type="text">
+                </div>
+                <div class="col-md-6">
+                  <div class="field-label">Last Name*</div>
+                  <input name="lname" value="" placeholder="" required aria-required="true" type="text">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="field-label">Email*</div>
+                  <input name="form_email" value="" placeholder="" required aria-required="true" type="email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="field-label">Your Comments*</div>
+                  <textarea name="comment" placeholder="" required aria-required="true"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button class="btn-one thm-bg-clr" type="submit">Submit Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--End add comment box--> 
+    </div>
+  </div>
+  
+  <!--Start sidebar Wrapper-->
+  <div class="col-xl-4 col-lg-5 col-md-9 col-sm-12">
+    <div class="sidebar-wrapper"> 
+      <!--Start single sidebar-->
+      <div class="single-sidebar">
+        <form class="search-form" action="#">
+          <input placeholder="Search..." type="text">
+          <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </div>
+      <!--End single sidebar--> 
+      <!--Start single sidebar-->
+      <div class="single-sidebar">
+        <div class="sec-title">
+          <h3>Categories</h3>
+        </div>
+        <ul class="categories clearfix">
+          <li><a href="#">Tube Lights With Panel <span>(6)</span></a></li>
+          <li><a href="#">Sockets And Holders <span>(2)</span></a></li>
+          <li><a href="#">Main Control Board <span>(8)</span></a></li>
+          <li><a href="#">3 Phase Panel Board <span>(5)</span></a></li>
+          <li><a href="#">Smart Home Solutions <span>(3)</span></a></li>
+        </ul>
+      </div>
+      <!--End single sidebar--> 
+      <!--Start single sidebar-->
+      <div class="single-sidebar comment">
+        <div class="sec-title">
+          <h3>Recent Comments</h3>
+        </div>
+        <div class="comment-box"> 
+          <!--Start single item-->
+          <div class="single-item">
+            <div class="date-box">
+              <p>August 17, 2017</p>
+            </div>
+            <div class="single-box">
+              <div class="left-content pull-left">
+                <div class="inner-content">
+                  <div class="img-holder"> <img src="images/comment-1.jpg" alt="">
+                    <div class="overlay-style-one">
+                      <div class="box">
+                        <div class="content"> <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="title-holder">
+                    <h5>Mark Mitchael</h5>
+                    <p>It is long established fact</p>
+                  </div>
+                </div>
+              </div>
+              <div class="right-content pull-right">
+                <div class="read-comment"> <a href="#"><span class="fa fa-long-arrow-right"></span></a> </div>
+              </div>
+            </div>
+          </div>
+          <!--End single item--> 
+          <!--Start single item-->
+          <div class="single-item mar-top">
+            <div class="date-box">
+              <p>July 08, 2017</p>
+            </div>
+            <div class="single-box">
+              <div class="left-content pull-left">
+                <div class="inner-content">
+                  <div class="img-holder"> <img src="images/comment-2.jpg" alt="">
+                    <div class="overlay-style-one">
+                      <div class="box">
+                        <div class="content"> <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="title-holder">
+                    <h5>Steve Bowerman</h5>
+                    <p>When looking at its layout</p>
+                  </div>
+                </div>
+              </div>
+              <div class="right-content pull-right">
+                <div class="read-comment"> <a href="#"><span class="fa fa-long-arrow-right"></span></a> </div>
+              </div>
+            </div>
+          </div>
+          <!--End single item--> 
+        </div>
+      </div>
+      <!--End single sidebar--> 
+      <!--Start single sidebar-->
+      <div class="single-sidebar">
+        <div class="sec-title">
+          <h3>Popular Post</h3>
+        </div>
+        <ul class="popular-post">
+          <li>
+            <div class="img-holder"> <img src="images/popular-post-1.jpg" alt="">
+              <div class="overlay-style-one">
+                <div class="box">
+                  <div class="content"> <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="title-holder">
+              <h5 class="post-title"><a href="#">Lorem Ipsum is simply dummy <br>text of the printing?</a></h5>
+              <h6 class="post-date"><i class="fa fa-calendar thm-clr" aria-hidden="true"></i> April 18, 2017</h6>
+            </div>
+          </li>
+          <li>
+            <div class="img-holder"> <img src="images/popular-post-2.jpg" alt="">
+              <div class="overlay-style-one">
+                <div class="box">
+                  <div class="content"> <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="title-holder">
+              <h5 class="post-title"><a href="#">Lorem Ipsum is simply dummy <br>text of the printing?</a></h5>
+              <h6 class="post-date"><i class="fa fa-calendar thm-clr" aria-hidden="true"></i> February 14, 2017</h6>
+            </div>
+          </li>
+          <li>
+            <div class="img-holder"> <img src="images/popular-post-3.jpg" alt="">
+              <div class="overlay-style-one">
+                <div class="box">
+                  <div class="content"> <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="title-holder">
+              <h5 class="post-title"><a href="#">Lorem Ipsum is simply dummy <br>text of the printing?</a></h5>
+              <h6 class="post-date"><i class="fa fa-calendar thm-clr" aria-hidden="true"></i> January 16, 2017</h6>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--End single sidebar--> 
+      <!--Start single-sidebar-->
+      <div class="single-sidebar">
+        <div class="sec-title">
+          <h3>Tags</h3>
+        </div>
+        <ul class="popular-tag">
+          <li><a href="#">Electric</a></li>
+          <li><a href="#">Repair</a></li>
+          <li><a href="#">Maintainance</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Electric</a></li>
+          <li><a href="#">Repair</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </div>
+      <!--End single-sidebar--> 
+    </div>
+  </div>
+  <!--End Sidebar Wrapper--> 
+</div> 
+  </div>
+</div>
+<!-- Inner Page Wrapper End --> 
+<!-- Footer Wrapper Start -->
+<footer class="footer-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="search-wrapper">
+        <div class="col-sm-6">
+          <div class="search-inner-text">
+            <h3>Want to know about our offers first? <span>Subscribe our newsletter</span></h3>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="footer-search-form">
+            <div class="form">
+              <input placeholder="Your Email Address" id="exampleInputName" class="form-control first" type="text">
+              <input class="bttn" value="Subscribe" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="intro">
+          <div class="flogo"><img src="images/footer-logo.png" alt=""></div>
+          <p class="intro-content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="extralinks">
+          <h4 class="title">Information</h4>
+          <div class="extralinks-cols">
+            <ul class="extralinks-col">
+              <li> <a href="javascript:void(0)">Customer Service</a> </li>
+              <li> <a href="javascript:void(0)">Privacy Policy</a> </li>
+              <li> <a href="javascript:void(0)">Site Map</a> </li>
+              <li> <a href="javascript:void(0)">Advanced Search</a></li>
+              <li> <a href="javascript:void(0)">Orders and Returns</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="extralinks">
+          <h4 class="title">Usefull Links</h4>
+          <div class="extralinks-cols">
+            <ul class="extralinks-col">
+              <li> <a href="javascript:void(0)">About Us</a> </li>
+              <li> <a href="javascript:void(0)">Services</a> </li>
+              <li> <a href="javascript:void(0)">Blog</a> </li>
+              <li> <a href="javascript:void(0)">Gallery</a></li>
+              <li> <a href="javascript:void(0)">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="address">
+          <h4 class="title">Contact Us</h4>
+          <div class="extralinks-cols">
+            <ul class="extralinks-col">
+              <li> <span class="fcontact-icon fa fa-clock-o"></span> Mon - Sat 9:00 a.m. - 6:00 p.m. <br>
+                Sunday Closed </li>
+              <li><span class="fcontact-icon fa fa-map-marker"></span>11th Floor, 645 Hudson Street, NY 10018 USA</li>
+              <li><span class="fcontact-icon fa fa-phone"></span>012 345 6789</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="footer-cta-wrapper">
+	<div class="row">
+      <div class="col-sm-9">
+	    <img src="images/footer-cta-icon.png" alt="">
+        <h3>Do you need any help for electrical maintenance?</h3>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+      <div class="col-sm-3"> <a href="javascript:void(0)" class="pull-right">Get A Quote</a> </div>
+    </div>
+	</div>
+  </div>
+</footer>
+<!-- Footer Wrapper End --> 
+<!-- Copyright Wrapper End -->
+<div class="copyright-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <p>&copy; Copyright <span id="year"></span>, ElectricalShop | All Rights Reserved.</p>
+      </div>
+      <div class="col-sm-5">
+        <ul class="footer-social-icons">
+          <li class="facebook"><a href="javascript:void(0)" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="twitter"><a href="javascript:void(0)" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class="linkedin"><a href="javascript:void(0)" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li class="pinterest"><a href="javascript:void(0)" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+          <li class="google-plus"><a href="javascript:void(0)" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+          <li class="youtube"><a href="javascript:void(0)" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          <li class="dribbble"><a href="javascript:void(0)" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Copyright Wrapper End --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="assets/jquery/jquery-3.1.1.min.js"></script> 
+<script src="assets/jquery/plugins.js"></script> 
+<script src="assets/jquery/slicknav.min.js"></script> 
+<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+<script src="assets/number-animation/jquery.animateNumber.min.js"></script> 
+<script src="assets/owl-carousel/js/owl.carousel.js"></script> 
+<script src="assets/wow/wow.min.js"></script> 
+<script src="assets/jquery/slider.js"></script> 
+<script src="js/custom.js"></script>
 </body>
 </html>
